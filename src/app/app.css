@@ -104,7 +104,7 @@ h1 em, h2 em { font-weight: 400; color: var(--gold); }
 .image-number { right: 18px; font-size: 7px; }
 .intro-image::after { content: ""; position: absolute; z-index: 0; inset: 50% 0 0; background: linear-gradient(transparent, rgba(13, 34, 31, .48)); }
 .intro-stamp { position: absolute; left: 8%; bottom: 69px; width: 104px; height: 104px; border: 1px solid #d8c9aa; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 7px; color: #a88757; transform: rotate(-11deg); background: var(--cream); }
-.intro-stamp span:first-child { font-family: Georgia, "Times New Roman", serif; font-size: 13px; letter-spacing: .1em; }
+.intro-stamp span:first-child { font-family: Georgia, "Times New Roman", serif; font-size: 8px; letter-spacing: .06em; white-space: nowrap; }
 .intro-stamp span:nth-child(2) { font-size: 6px; letter-spacing: .12em; }
 .intro-stamp svg { width: 31px; height: 25px; }
 
@@ -168,8 +168,8 @@ h1 em, h2 em { font-weight: 400; color: var(--gold); }
   .site-header { height: 72px; padding: 0 20px; }
   .brand { gap: 7px; }
   .brand-mark, .brand-mark svg { width: 31px; height: 31px; }
-  .brand-copy strong { font-size: 17px; }
-  .brand-copy small { font-size: 7px; }
+  .brand-copy strong { font-size: 12px; letter-spacing: .04em; }
+  .brand-copy small { font-size: 6px; letter-spacing: .1em; }
   .main-nav { display: none; }
   .header-chat { padding: 9px 11px; gap: 6px; font-size: 10px; }
   .header-chat svg { width: 15px; height: 15px; }
@@ -208,6 +208,8 @@ h1 em, h2 em { font-weight: 400; color: var(--gold); }
   .contact h2 { font-size: 44px; }
   .contact-action { width: auto; margin-top: 30px; }
   .site-footer { min-height: 125px; padding: 25px; display: grid; grid-template-columns: 1fr auto; gap: 15px 8px; }
+  .footer-brand .brand-copy strong { font-size: 12px; }
+  .footer-brand .brand-copy small { font-size: 6px; }
   .footer-place { grid-column: 1 / -1; grid-row: 2; }
   .footer-copyright { font-size: 6px; text-align: right; }
   .floating-chat { right: 14px; bottom: 14px; padding: 12px 14px; }
